@@ -3,7 +3,7 @@
 As Building out iOS Applications there are 95% case, where we have to use UITableView in many different controllers. So writing out lot of tableView
 code, ie implementing delegates & dataSources, then passing modal object to UITableViewCells can be a lot of code repetation in many controllers 🧐.
 
-So to avoid this, i have created a wrapper above this by using Protocols & PAT, this helps in reusing the code and save's time.
+So to avoid this, i have created a wrapper above this by using Generics,Protocols & PAT, this helps in reusing the code and save's time.
 
 ```
     var genericTable:GenericTableHandler<CustomTableCell,DataModalHandler>!
